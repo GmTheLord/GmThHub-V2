@@ -6,7 +6,7 @@ local serv = win:Server("Games", "")
 
 local btns = serv:Channel("Shindo Life")
 btns:Button("Nuke Hub", function()
-    _G.key = "awjdaoiwjdaiu" 
+    _G.key = "key" 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
 end)
 btns:Button("Snwn Hub", function()
